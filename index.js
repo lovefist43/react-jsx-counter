@@ -5,7 +5,7 @@ import "./style.css";
 let counter = 0;
 function show() {
   counter++;
-  const el = <p>{counter}</p>;
+  const el = <h1>{counter}</h1>;
   ReactDOM.render(el, document.getElementById("root"));
 }
 
